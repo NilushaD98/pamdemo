@@ -1,0 +1,41 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.main_user_table_container
+{
+    position: relative;
+    margin: 0 40px;
+}
+
+.user_detail_table_div
+{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+
+.table_row_user_table
+{
+    background-color: #8B0000;
+    color: #ffffff;
+}
+
+.table_cell_user_table
+{
+    
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.my-button-class
+{
+    background-color: darkred;
+    color: #fff;
+    width: 100px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 8px;
+}

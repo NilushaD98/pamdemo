@@ -1,0 +1,14 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.nvigation_bar_container
+{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}

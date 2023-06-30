@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation_container
+{
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(150deg,#f0afaf ,#7c0101);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_container
+{
+    flex-basis: 20%;
+    margin-left: 20px;
+}
+.logo_container .logo
+{
+    background-image: url(../media/PAMLOGO.png);
+    width: 100px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.link_container
+{
+    display: flex;
+    align-items: center;
+    flex-basis: 80%;
+}
+
+.link_container ul 
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    list-style: none;
+}
+
+.link_container ul li
+{
+    width: 180px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+
+.link_container ul li a, .link_container ul li button
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.03rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    
+}
+
+.link_container ul li::after
+{
+    content: "";
+    display: block;
+    bottom: -8px;
+    left: 0;
+    position: absolute;
+    height: 3px;
+    background: #ffffff;
+    width: 0px;
+    transition: 0.4s linear;
+}
+
+.link_container ul li:hover::after
+{
+    width: 80px;
+}
